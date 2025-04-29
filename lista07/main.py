@@ -13,7 +13,7 @@ try:
     #loop infinito
     while True:
         os.system("cls")#limpa o terminal
-        pesquisa = input("Informe o nome da cidade a ser pesquisada: ") #usuário informa valor a ser pesquisado
+        pesquisa = input("Informe o nome da cidade a ser pesquisada: ").title() #usuário informa valor a ser pesquisado. O title() deixa a primeira letra maiúscula
         
         #retorna quantidade de valores encontrados
         resultado = cidades.count(pesquisa) #conta quantas vezes o valor aparece na lista

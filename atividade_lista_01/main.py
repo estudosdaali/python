@@ -36,3 +36,5 @@ finally:
     print("Lista de itens:\n") #imprime a lista
     for item in lista: #loop para imprimir os itens da lista
         print(item)
+
+
